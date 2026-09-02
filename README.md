@@ -1,6 +1,6 @@
 # GateSys — Système de Gestion Stargate
 
-GateSys (développé sous le nom de projet `saeStargateTUAILLON_LONGO_YURTSEBEN`) est une application de bureau Windows Forms développée en C# avec .NET Framework 4.8. Ce logiciel a été conçu dans le cadre d'une Situation d'Apprentissage et d'Évaluation (SAE) pour administrer et suivre les missions d'exploration interplanétaires à travers la porte des étoiles.
+GateSys est une application de bureau Windows Forms développée en C# avec .NET Framework 4.8.
 
 L'application s'appuie sur une base de données locale SQLite (`Stargate.db`) pour centraliser les données sur les planètes, les espèces extraterrestres (alliées ou ennemies), les membres des équipes d'exploration, le budget et le journal des événements de chaque mission.
 
@@ -10,7 +10,7 @@ L'application s'appuie sur une base de données locale SQLite (`Stargate.db`) po
 
 ---
 
-## 🚀 Fonctionnalités
+## Fonctionnalités
 
 GateSys offre une interface utilisateur immersive sur le thème de Stargate, dotée d'une charte graphique personnalisée (tons sombres, typographie *Saira Condensed*, boutons réactifs au survol). Ses fonctionnalités principales sont :
 
@@ -48,7 +48,7 @@ GateSys offre une interface utilisateur immersive sur le thème de Stargate, dot
 
 ---
 
-## 🛠️ Installation et Configuration
+## Installation et Configuration
 
 Pour exécuter et compiler ce projet en local, suivez les instructions ci-dessous :
 
@@ -76,17 +76,9 @@ Pour exécuter et compiler ce projet en local, suivez les instructions ci-dessou
 
 ---
 
-## 🏗️ Architecture Technique & Technologies
+## Architecture Technique & Technologies
 
 * **Langage & Framework** : C# 8.0, Windows Forms (.NET Framework 4.8)
 * **Base de données** : SQLite (via la bibliothèque `System.Data.SQLite`). La connexion est gérée sous forme de *Singleton* via la classe [Connexion.cs](file:///home/nexxo/GateSys/Connexion.cs) pour assurer l'unicité et la fermeture propre des accès à la base de données.
 * **Sécurité** : Hachage des mots de passe avec BCrypt pour l'authentification.
 * **Mise en page & Style** : Utilisation d'un moteur de style personnalisé dynamique ([Style.cs](file:///home/nexxo/GateSys/Style.cs)) qui applique récursivement la police d'écriture et les palettes de couleurs thématiques de l'univers Stargate à tous les contrôles graphiques.
-
----
-
-## 👥 Auteurs et Crédits
-
-Ce projet a été réalisé par :
-* **Tuaillon**
-* **Longo**
